@@ -84,9 +84,16 @@
       </link>
     </model>
 
-    <model name="iris_demo">
+    <model name="iris_demo1">
       <include>
         <uri>model://iris_with_ardupilot</uri>
+        <pose>0 1 0 0 0 0</pose>
+      </include>
+    </model>
+    <model name="iris_demo2">
+      <include>
+        <uri>model://iris_with_ardupilotb</uri>
+        <pose>0 -1 0 0 0 0</pose>
       </include>
     </model>
   </world>
